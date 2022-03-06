@@ -1,0 +1,50 @@
+@font-face{
+    src: url(/CSS/Sitka.ttc) format('TrueType');
+    font-family: Sitka Banner;
+}
+body{
+    font-family: Sitka Display;
+}
+.row{
+    --bs-gutter-x: none;
+}
+.bg-header{
+    background-image: url(/IMG/bg-header.jpg);
+    background-position-y:30% ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh; 
+}
+.bg-informacion{
+    background: url(/IMG/bg-informacion.jpg) ,url(/IMG/bg-header.jpg) ;
+    background-size:cover ;
+    background-blend-mode:luminosity ;
+}
+.bg-footer{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(217,217,217,1) 100%);
+}
+.container-section{
+    margin-left: 180px; 
+    margin-right: 110px;
+}
+@media(max-width:990px){
+    .bg-informacion{
+        visibility: hidden;
+    }
+    .bg-header{
+        background-image: url(/IMG/bg-header.jpg);
+        background-position:center ;
+    }
+    .container-section{
+        margin: 0;
+    }
+}
+
+.ff-silka-display{font-family: Sitka Display;}
+.text-shadow{text-shadow:3px 7px 9px #000000cc;}
+
+
+
+
+ 

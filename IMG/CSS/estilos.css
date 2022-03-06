@@ -1,0 +1,6 @@
+.bg-header{
+    background-image: url(/IMG/bg-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
