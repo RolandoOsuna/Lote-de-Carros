@@ -9,14 +9,14 @@ body{
     --bs-gutter-x: none;
 }
 .bg-header{
-    background-image: url(/IMG/bg-header.jpg);
+    background-image: url(IMG/bg-header.jpg);
     background-position-y:30% ;
     background-size:cover;
     background-repeat: no-repeat;
     height:100vh; 
 }
 .bg-informacion{
-    background: url(/IMG/bg-informacion.jpg) ,url(/IMG/bg-header.jpg) ;
+    background: url(IMG/bg-informacion.jpg) ,url(IMG/bg-header.jpg) ;
     background-size:cover ;
     background-blend-mode:luminosity ;
 }
@@ -33,7 +33,7 @@ body{
         visibility: hidden;
     }
     .bg-header{
-        background-image: url(/IMG/bg-header.jpg);
+        background-image: url(IMG/bg-header.jpg);
         background-position:center ;
     }
     .container-section{
